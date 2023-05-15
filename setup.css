@@ -4,6 +4,10 @@
 /*	Author: mijeong park
 /****************************************/
 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -11,7 +15,6 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
-    font-family: 'Poppins', sans-serif;
 }
 
 .wrapper {
@@ -86,7 +89,6 @@ html, body {
 .robot_title {
     font-size: 24px;
     font-weight: 600;
-    margin: 0 auto;
     text-align: center;
     color: #000;
 }
@@ -185,7 +187,7 @@ button {
     display: grid;
     grid-template-columns: repeat(3, minmax(50px, 1fr));
     grid-template-rows: repeat(3, minmax(50px, 1fr));
-    gap: 30px;
+    gap: 25px;
     height: 100%;
     /* height: calc(100% - 140px); */
 }
