@@ -222,7 +222,7 @@ button {
 }
 
 .card i.control {
-    background-image:url(images/icon_control.svg);
+    background-image:url(/images/icon_control.svg);
 }
 .card i.project {
     background-image:url(images/icon_project.svg);
