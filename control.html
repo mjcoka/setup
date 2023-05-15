@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Robot Setup</title>
+        <link rel="stylesheet" type="text/css" href="setup.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <style>
+            @import url('https://rsms.me/inter/inter.css');
+                    html { font-family: 'Inter', sans-serif; 
+            }
+            @supports (font-variation-settings: normal) {
+                    html { font-family: 'Inter var', sans-serif; }
+            }
+        </style>
+        <script src="js/includeHTML.js"></script>
+    </head>
+<body>
+    <div class="wrapper">
+        <div w3-include-html="header_sub.html"></div> 
+        <div class="container sub">
+            <div class="contents">
+                <div class="con">
+                    <ul class="nav nav_tabs hidden">
+                        <li class="active">
+                            <a href="#" class="">Mission</a>
+                        </li>
+                        <li>
+                            <a href="#" class="">Mission Queue</a>
+                        </li>
+                        <li>
+                            <a href="#" class="">Mission History</a>
+                        </li>
+                        <li>
+                            <a href="#" class="">Mission on Startup</a>
+                        </li>
+                    </ul>
+
+                    <div class="search-content">
+                        <div class="con-grid">
+                            <div class="con-i"></div>
+                            <div class="con-i"></div>
+                            <div class="con-i">
+                                <div class="item">
+                                    <h2>Current Linear speed</h2>
+                                    <div class="input-line">
+                                        <input type="text" class="form-control" id="laber" placeholder="" required="">
+                                        <span>m/s</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h2>Current Angular speed</h2>
+                                    <div class="input-line">
+                                        <input type="text" class="form-control" id="laber" placeholder="" required="">
+                                        <span>degree</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="con-i">
+                                <div class="item">
+                                    <h2>Max Linear speed</h2>
+                                    <div class="input-line">
+                                        <input type="text" class="form-control" id="laber" placeholder="" required="">
+                                        <span>m/s</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h2>Max Angular speed</h2>
+                                    <div class="input-line">
+                                        <input type="text" class="form-control" id="laber" placeholder="" required="">
+                                        <span>degree</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        includeHTML();
+    </script>
+</body>
+</html>
