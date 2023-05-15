@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#009EF7;stroke-width:0.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<rect class="st0" width="25" height="25"/>
+<g>
+	<path id="패스_126_1_" class="st1" d="M12.5,4.3c-4.6,0-8.2,3.7-8.2,8.2s3.7,8.2,8.2,8.2s8.2-3.7,8.2-8.2S17,4.3,12.5,4.3z"/>
+	<circle class="st1" cx="12.5" cy="10.4" r="2.7"/>
+	<path class="st1" d="M12.5,20.8c-2.4,0-4.9-1-6.2-3.2c0-2.2,4.3-3.8,6.2-3.8s6.2,1.6,6.2,3.8C17.4,19.8,14.8,20.8,12.5,20.8z"/>
+</g>
+</svg>
